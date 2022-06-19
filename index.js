@@ -9,5 +9,5 @@ app.get("/", function (req, res) {
   res.sendFile(path.join(__dirname, "/index.html"));
 });
 
-const port = process.env.port || 3000;
+const port = 3000;
 app.listen(port, () => console.info(`server has started on port ${port}`));
